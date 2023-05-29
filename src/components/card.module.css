@@ -1,0 +1,23 @@
+.card {
+    width: 200px;
+    height: 280px;
+    border: 1px solid gray;
+    border-radius: 0.6rem;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.card img {
+    width: 198px;
+    height: 200px;
+    border-radius: 0.6rem 0.6rem 0 0;
+}
+
+.card h3 {
+    margin: 3px;
+    font-size: 14px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}

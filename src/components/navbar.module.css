@@ -1,0 +1,26 @@
+.navbody{
+    height: 12vh;
+    width: 100%;
+    background-color: #191818;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
+.branding{
+    color: #ffffff;
+    font-size: 36px;
+}
+.icons{
+    color: #ffffff;
+    width: 20px;
+    height: 30px;
+    margin: 10px;
+}
+@media (max-height: 680px){
+    .navbody{
+        display: flex;
+        padding: 40px;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+}
