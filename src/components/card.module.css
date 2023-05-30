@@ -12,6 +12,14 @@
     height: 200px;
     border-radius: 0.6rem 0.6rem 0 0;
 }
+.card span{
+    padding: 5px;
+    color: green;
+}
+.card span:nth-child(3){
+    text-decoration: line-through;
+    color: black;
+}
 
 .card h3 {
     margin: 3px;
